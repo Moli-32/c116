@@ -1,0 +1,22 @@
+body{
+background-size: cover;
+font-family: monospace;
+}
+.heading{
+    font-size: 35px;
+    width: 100%;
+    margin-top: 0px;
+}
+.button{
+    font-size: 20px;
+}
+canvas{
+ animation-name: stache; 
+ animation-duration: 7s;
+ animation-iteration-count: infinite;  
+}
+
+@keyframes stache{
+    from{box-shadow: 5px 5px 40px black;}
+    to{box-shadow: 5px 5px 40px grey;}
+}
